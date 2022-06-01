@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import WelcomePage from './components/WelcomePage';
-import Doctors from './components/Doctors';
+import DoctorsList from './components/DoctorsList';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
+  Link
 } from "react-router-dom";
+import Slots from './components/Slots'
 import { useHistory } from 'react-router-dom';
 
 function App() {
@@ -21,10 +22,14 @@ function App() {
 
           </Route >
 
-          <Route path="/doctors" element={<Doctors />} >
+          <Route path="/doctors" element={<DoctorsList />} >
             
 
           </Route>
+          <Route path="/bookappointment" element={<Slots />} >
+            
+
+            </Route>
         </Routes>
       </Router>
 

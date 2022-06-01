@@ -1,0 +1,19 @@
+.docorsInfo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.doctorCard{
+  background-color: rgb(76, 76, 116);
+box-shadow:18px;
+border-radius: 8px;
+width: 250px;
+height: 250px;
+margin: 10px;
+text-align: center;
+/* margin-top: 10px; */
+
+
+}
